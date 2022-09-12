@@ -14,7 +14,7 @@ few linked pages - service, about (will be apdating more ).
 clone the repoditory.
 -cd to project folder in the terminal 
 -npm install (this will install all dependecies)
--npm start 
+-npm run dev
 
 happy hacking ✔🎉
 
