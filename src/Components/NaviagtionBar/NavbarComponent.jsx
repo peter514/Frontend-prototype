@@ -58,11 +58,12 @@ import {MdClose} from 'react-icons/md'
 
 
              {/* mobile devices nav */}
-        <div className='block md:hidden'>
+        <div className='block  md:hidden '>
             <div>
                 <span onClick={()=>{setmobilemenu(!mobilemenu)}}>{!mobilemenu ? <GiHamburgerMenu size={30}/> : <MdClose size={30}/>}</span>
             </div>
-            <div className={mobilemenu? 'fixed left-0 m-0 top-0 w-[65%] h-full bg-gray-300 ease-in-out duration-500' : 'fixed left-[-100%]' }>
+
+            <div className={mobilemenu? 'fixed left-0 m-0 top-0 w-[65%] h-full z-10 bg-gray-300 ease-in-out duration-500' : '  fixed left-[-100%]' }>
                     <h1 className='font-bold px-2 text-2xl text-green-600'>DevOps</h1>
                     <ul className=' gap-10 '>
                 {
