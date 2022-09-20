@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom'
 import Homepage from './Pages/HomePage'
 import  Dashboard  from './Pages/Dashboard'
+import Preview from './Pages/Preview'
 
 
 
@@ -20,6 +21,10 @@ function App() {
           <Route
           path='dashboard'
           element ={<Dashboard/>}
+          />
+          <Route
+          path='preview'
+          element ={<Preview/>}
           />
 
 

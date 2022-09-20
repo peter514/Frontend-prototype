@@ -15,6 +15,11 @@
         title:'Dropdown',
         path:'',
     },
+    {
+         id:4,
+        title:'Preview',
+        path:'/preview',
+    },
      {
          id:3,
         title:'Services',

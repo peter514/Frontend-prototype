@@ -7,13 +7,13 @@ import image4 from '../images/web 3.jpeg'
 import image5 from '../images/web 4.jpeg'
 function CarouselComponent(){
     return(
-        <div className=" flex justify-center items-center"> 
-            <Carousel  infiniteLoop centerMode useKeyboardArrows className= 'w-[70rem] mx-4 '>
-                <div className="bg-c1 bg-cover ">
+        <div className=" "> 
+            <Carousel  autoPlay infiniteLoop useKeyboardArrows className= ''>
+                <div className=" ">
                    <img src={image1} alt="" className=" " />
                 </div>
                 <div>
-                    <img src={image2} alt="" className=" " />
+                    <img src={image2} alt="" className="" />
                 </div>
                 <div>
                     <img src={image3} alt="" className=" " />

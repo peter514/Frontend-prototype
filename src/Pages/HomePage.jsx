@@ -1,23 +1,24 @@
 // components imports
 import NavbarComponent from '../Components/NaviagtionBar/NavbarComponent'
 import CarouselComponent from '../Components/CarouselComponent';
-import Slider from '../Components/Slider';
 import Cards from '../Components/Cards'
+import Footer from '../Components/Footer';
+import HeroSection from '../Components/HeroSection';
 function HomePage(){
     return(
-        <div className='bg-gray-100 h-screen'> 
+        <div className='bg-white h-screen mt-[68px]'> 
             
             {/* nav bar */}
           <NavbarComponent/>
 
           {/* hero section */}
-          <CarouselComponent/>
+          <HeroSection/>
+                   
 
-          {/* slider section */}
-          <Slider/>
-
-          {/* cards section */}
-         <Cards/>         
+          {/* cards and slider  section */}
+         <Cards/>  
+                {/*Footer  */}
+                <Footer/>
         </div>
     )
 }

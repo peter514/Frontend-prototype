@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import {Link} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 import DropdownComponent from "./DropdownComponent";
 //importin nav links
 import { navItems } from "./NavbarItems";
@@ -9,11 +9,12 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 import {MdClose} from 'react-icons/md'
  
  function NavbarComponent(){
+    const Navigate= useNavigate();
     const [dropdown, setDropdown]=useState(false)
     const[mobilemenu, setmobilemenu]=useState(false)
     const[mobiledropdown, setMobiledropdown]=useState(false)
     return(
-        <div>
+        <div className='fixed top-0 left-0 right-0  z-10'>
         <div  className="bg-gray-100 shadow-md text-gray-900  h-[60px] px-6 flex  justify-between items-center"> 
         <div className="">
             <h1 className='font-bold text-2xl text-primary'>DevOps</h1>
@@ -44,11 +45,14 @@ import {MdClose} from 'react-icons/md'
 
 
                         return(
+                            
                             <li key={item.id}
                             className='hover:bg-primary hover:cursor-pointer hover:ease-out duration-300 h-full p-2 rounded-sm'
+                            onClick={()=>{Navigate(item.path)}}
                             >
-                                <Link to={item.path}>{item.title}</Link>
+                                {item.title}
                             </li>
+                            
                         )
                     })
                 }
