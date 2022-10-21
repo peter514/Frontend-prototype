@@ -35,7 +35,7 @@ export const HeroSection = () => {
     >
       <div className="bg-h1 h-[450px] bg-cover bg-repeat-none flex flex-col justify-center  items-center">
         
-        <h1 className="text-center text-white font-bold text-[70px] bg-primary opacity-60">DevOps Solutions</h1>
+        <h1 className="text-center text-white font-bold text-[70px] bg-primary opacity-60">maggie Solutions</h1>
       </div>
       <div className="bg-h2 h-[450px] bg-cover bg-repeat-none flex flex-col justify-center  items-center">
         

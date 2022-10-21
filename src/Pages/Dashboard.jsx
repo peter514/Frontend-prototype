@@ -10,7 +10,7 @@ import {AiOutlineHome} from 'react-icons/ai'
 import { useState } from "react"
 import profile from '../images/av2.png';
 function Dashboard() {
-  const [sidenav,setSidenav]=useState(true)
+  const [sidenav,setSidenav]=useState(false)
    const[profiledropdown, setProfiledropdown] =useState(false);
   return <div>
     {/* dashboard nav */}
@@ -49,7 +49,7 @@ function Dashboard() {
 
        
             </div>
-            <div className=' w-full block md:basis-3/4 bg-gray-100'>
+            <div className={sidenav? 'block md:basis-3/4 bg-whit' : 'w-full'}>
 
               Main content area
               
