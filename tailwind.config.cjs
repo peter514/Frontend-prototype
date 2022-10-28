@@ -9,6 +9,9 @@ module.exports = {
         primary: "#78350f",
         secondary: "#a1a1aa",
         tertiary: "#b45309"
+      },
+      backgroundImage: {
+        homeImage: "url('./assets/HeroBg.jpg')"
       }
     },
 
