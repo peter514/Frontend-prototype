@@ -2,7 +2,9 @@ import React from 'react'
 
 function LandingPage() {
   return (
-    <div>LandingPage</div>
+    <div className='bg-tertiary'>
+     Landing Page
+    </div>
   )
 }
 
