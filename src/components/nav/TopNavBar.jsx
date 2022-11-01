@@ -76,7 +76,7 @@ function TopNavBar() {
         <div className=" pt-4">
           <ul className="flex flex-row gap-3 pr-4">
             <li className="font-bold hover:underline  hover: ">
-              <a href="/">Log In</a>
+              <a href="/dashboard">Log In</a>
             </li>
             <li className="">
               <a
