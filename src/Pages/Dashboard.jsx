@@ -8,7 +8,7 @@ import {MdOutlineMiscellaneousServices} from 'react-icons/md'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {AiOutlineHome} from 'react-icons/ai'
 import { useState } from "react"
-import profile from '../images/av2.png';
+import profile from '../images/p3.jpeg';
 function Dashboard() {
   const [sidenav,setSidenav]=useState(false)
    const[profiledropdown, setProfiledropdown] =useState(false);
